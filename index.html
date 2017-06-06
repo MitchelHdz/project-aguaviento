@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="css/aguaviento.libs.css">
     <link rel='stylesheet' href='https://cdn.rawgit.com/jonsuh/hamburgers/e8cd462c/dist/hamburgers.css'>
     <link rel="stylesheet" href="css/main.css">
-
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>aguaviento</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css">
+    <title>Aguaviento</title>
   </head>
   <body id="body">
-    <div id="page">
-      <nav class="neopraxis-navbar" id="neopraxisNavbarSite">
+    <div id="page" class="remodal-bg">
+      <nav class=" neopraxis-navbar " id="neopraxisNavbarSite">
   <button class="hamburger hamburger--collapse" type="button" id="neopraxis-hamburger-menu">
     <span class="hamburger-box">
       <span class="hamburger-inner"></span>
@@ -33,27 +40,27 @@
       
         <li class="aguaviento-font-montserrat-light">
       
-        <a href="./services.html" class="">Compañía</a>
+        <a href="./company.html" class="">Compañía</a>
       </li>
       
         <li class="aguaviento-font-montserrat-light">
       
-        <a href="./memberships.html" class="">Productos</a>
+        <a href="./products.html" class="">Productos</a>
       </li>
       
         <li class="aguaviento-font-montserrat-light">
       
-        <a href="./offices.html" class="">Innovación</a>
+          <a href="./innovation.html" class="">Innovación</a>
+        </li>
+      
+        <li class="aguaviento-font-montserrat-light">
+      
+        <a href="./plant.html" class="">Instalaciones</a>
       </li>
       
         <li class="aguaviento-font-montserrat-light">
       
-        <a href="./tools.html" class="">Instalaciones</a>
-      </li>
-      
-        <li class="aguaviento-font-montserrat-light">
-      
-        <a href="./blog.html" class="">Contacto</a>
+        <a href="./contact.html" class="">Contacto</a>
       </li>
   </ul>
     <ul class="nav navbar-nav navbar-right" id="neopraxis-main-navbar-right">
@@ -217,7 +224,7 @@
       <img src="./img/icons/group-11@3x.png" class="second-section-title-icon">
     </div>
     <div class="second-section-services-container aguaviento-flex-row">
-      <a href="#" id="imageBtnOne">
+      <a href="#servicesOneModal" id="imageBtnOne">
         <div class="second-section-service-box first border aguaviento-flex-row">
           <div class="service-info-box">
             <h2 class="service-title no-margin-text aguaviento-font-montserrat-medium nice-blue-text letter-spacing-less-dot-one">Desarrollo</h2>
@@ -226,7 +233,7 @@
           <img src="./img/icons/miscroscopio-06@3x.png" class="service-icon first">
         </div>
       </a>
-      <a href="#" id="imageBtnTwo">
+      <a href="#servicesTwoModal" id="imageBtnTwo">
         <div class="second-section-service-box aguaviento-flex-row">
           <div class="service-info-box">
             <h2 class="service-title no-margin-text aguaviento-font-montserrat-medium nice-blue-text letter-spacing-less-dot-one">Maquila</h2>
@@ -354,13 +361,16 @@
     </div>
     
     
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkrZ61d_-cyJHEuzhSjLaSKgF_l7CnRy4"></script>
+    
     <script src="js/aguaviento.libs.js"></script>
     
     
     <script src="js/aguaviento.js"></script>
     
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script type="text/javascript">
       $(".products-slider").slick({
         infinite: true,
